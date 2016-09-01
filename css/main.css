@@ -1,0 +1,101 @@
+body {
+	font-family: "Open Sans",
+		     sans-serif;
+	background-color: white;
+}
+
+div {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-orient: horizontal; 
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: top;
+    -moz-box-pack: top;
+    box-pack: top;
+    justify-content: top;
+
+    -webkit-box-align: top;
+    -moz-box-align: top;
+    box-align: top;  
+    align-items: top;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-width: 800px;
+	padding: 50px;
+}
+
+.content {
+	flex: 5;
+	flex-direction: column;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.nav {
+	flex: 1;
+	flex-direction: column;
+}
+
+img.profile_pic {
+	height: 300px;
+	padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "> ";
+    color: grey;
+}
+
+hr {
+	width: 80%;
+	color: #D1D1D1;
+	background-color: #D1D1D1;
+	margin-left: 0;
+	height: 2px;
+	border: none;
+}
+
+h1 {
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+h4 {
+	margin: 0px;
+	color: #919191;
+}
+
+p {
+	margin-top: 0px;
+}
+
+p.info {
+	color: #919191;
+	font-style: italic;
+	margin: 0px;
+}
