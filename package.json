@@ -1,0 +1,19 @@
+{
+  "name": "hptk.no",
+  "version": "1.0.0",
+  "description": "Personal homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hptk/hptk.no.git"
+  },
+  "author": "Hans Petter Taugbøl Kragset",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hptk/hptk.no/issues"
+  },
+  "homepage": "https://github.com/hptk/hptk.no#readme"
+}
